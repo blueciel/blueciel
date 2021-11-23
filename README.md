@@ -1,5 +1,5 @@
 # blueciel
-사용법
+사용법  
 parsing rule
 |컬럼명|data type|comment|
 | :---: | :--- | ---: |
@@ -14,3 +14,10 @@ parsing rule
 |find_next_word|varchar(100)|아래 줄 검색어|
 |next_line|int(4)|아래 줄 조회 수|
 |extract_rule|varchar(100)|추출 용 정규 식|
+
+parse result
+컬럼명|data type|comment
+:---|:---:|:---:
+client|varchar(100)|client
+proejct|varchar(100)|proejct
+discipline|varchar(100)|
