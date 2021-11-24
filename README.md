@@ -34,3 +34,9 @@ file_name|varchar(100)|
 content_num|int(11)|
 content_value|varchar(200)|값 추출 문장
 creation_dt|timestamp|CURRENT_TIMESTAMP
+
+```mermaid
+graph LR
+A(입력)-->B[연산]
+B-->C(출력)
+```
